@@ -1,0 +1,141 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* pop up stuff */
+.home_pop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+.home_pop_content {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 20%;
+    bottom: 20%;
+    margin: auto;
+    border-radius: 12px;
+    background: #d48eff;
+    text-align: center;
+}
+.close {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    margin-top: 0;
+    margin-right: 40px;
+    font-size: 5em;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: #7c41ab;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.close:hover {
+    color: rgb(220, 174, 255);
+}
+
+.smallLogo {
+    width: 3%;
+    height: 3%;
+    padding-right: 1em;
+    cursor: pointer;
+}
+
+.rbc-calendar {
+    font-family: 'Open Sans', sans-serif;
+}
+/*
+TODO FIX Styling here so not all h1s
+ */
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.64);
+    margin-left: 1rem;
+    text-align: center;
+    margin-top: -2rem;
+    margin-bottom: -.2rem;
+}
+
+.leaderboard-name {
+
+    color: rgba(170, 107, 241, 0.78);
+}
+
+.leaderboard-name:hover {
+    cursor: pointer;
+    color: rgb(170, 107, 241);
+    text-decoration: underline;
+}
+
+.Group {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.27);
+    display: block;
+    margin-left: .75rem;
+    margin-top: -.2rem;
+
+}
+
+.Description {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.27);
+    font-size: smaller;
+    display: block;
+    margin-left: 1rem;
+    text-align: center;
+    margin-bottom: .8rem;
+}
+.owner-tag {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.27);
+    display:inline;
+    display:inline;
+    font-size: 70%;
+}
+
+.noGroupsMsg {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.27);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    text-align: center
+}
+.create-mygroups {
+    color: rgba(170, 107, 241, 0.78);
+
+}
+.create-mygroups:hover {
+    cursor: pointer;
+    color: rgb(172, 91, 234);
+
+}
+.join-mygroups {
+    color: rgba(170, 107, 241, 0.78);
+
+}
+.join-mygroups:hover {
+    cursor: pointer;
+    color: rgb(172, 91, 234);
+
+
+}
+.not-found {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+}
+
